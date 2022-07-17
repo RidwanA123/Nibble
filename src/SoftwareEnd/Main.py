@@ -3,7 +3,7 @@ import os
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
-from instapy_cli import client
+
 import cv2
 import serial
 import time
