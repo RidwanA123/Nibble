@@ -41,7 +41,7 @@ if (digitalRead(button) == LOW) { //Reset Switch
   
  if (pirValue == HIGH) { //Send Weight Information over Serial
   if (((int(Scale.get_units()))) >= 1) {
-     Serial.print(Scale.get_units(), 1);
+     Serial.println(Scale.get_units(), 1);
      
   }
  }
